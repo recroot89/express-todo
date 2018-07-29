@@ -1,10 +1,6 @@
 import Express from 'express';
-// import Router from 'named-routes';
 
 const app = new Express();
-// const router = new Router();
-// router.extendExpress(app);
-// router.registerAppHelpers(app);
 
 let tasks = [];
 let count = 1;
@@ -23,7 +19,7 @@ app.get('/todo/:id', (req, res) => {
   if (task) {
     res.json(task.text);
   }
-  res.send(404);
+  res.sendStatus(404);
 });
 
 app.post('/todo/new', (req, res) => {
@@ -40,7 +36,7 @@ app.delete('/todo/:id', (req, res) => {
     tasks = tasks.filter(t => t !== task);
     res.send('Delete completed succesfully');
   }
-  res.send(404);
+  res.sendStatus(404);
 });
 
 export default app;

@@ -1,11 +1,8 @@
 {
   "name": "express-todo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
-  "main": "dist/index.js",
-  "bin": {
-    "hexlet": "dist/bin/hexlet.js"
-  },
+  "main": "src/index.js",
   "engines": {
     "node": ">=8"
   },
@@ -16,6 +13,7 @@
     "test": "jest",
     "babel-node": "babel-node",
     "eslint": "eslint",
+    "start": "nodemon --exec npm run babel-node -- src/index.js",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
@@ -35,7 +33,6 @@
   "dependencies": {
     "express": "^4.16.3",
     "gulp": "^4.0.0",
-    "named-routes": "^2.0.6",
     "nodemon": "^1.18.3"
   },
   "devDependencies": {
@@ -45,13 +42,11 @@
     "babel-jest": "^22.4.3",
     "babel-plugin-transform-runtime": "*",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-flow": "^6.23.0",
     "babel-preset-stage-0": "^6.24.1",
     "debug": "^3.1.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-babel": "^5.0.0",
-    "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-jest": "^21.15.0",
     "jest": "^22",

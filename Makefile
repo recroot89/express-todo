@@ -1,7 +1,7 @@
 install: install-deps install-flow-typed
 
 run:
-	npm run babel-node -- 'src/index.js' 10
+	npm start
 
 install-deps:
 	npm install
@@ -14,7 +14,7 @@ build:
 	npm run build
 
 test:
-	npm test
+	yarn test
 
 check-types:
 	npm run flow

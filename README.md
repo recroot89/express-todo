@@ -1,14 +1,8 @@
-##
-[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/hexletguides.github.io/master/images/hexlet_logo128.png)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=nodejs-package)
+## express-todo
 
-This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet (in Russian)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=nodejs-package).
-##
-
-# nodejs-package
-
-[![Code Climate](https://codeclimate.com/github/hexlet-boilerplates/javascript-package/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
-[![Issue Count](https://codeclimate.com/github/hexlet-boilerplates/javascript-package/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
-[![Build Status](https://travis-ci.org/hexlet-boilerplates/nodejs-package.svg?branch=master)](https://travis-ci.org/hexlet-boilerplates/nodejs-package)
+[![Maintainability](https://api.codeclimate.com/v1/badges/7b54515ca2109b621eb9/maintainability)](https://codeclimate.com/github/recroot89/express-todo/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/7b54515ca2109b621eb9/test_coverage)](https://codeclimate.com/github/recroot89/express-todo/test_coverage)
+[![Build Status](https://travis-ci.org/recroot89/express-todo.svg?branch=master)](https://travis-ci.org/recroot89/express-todo)
 
 ## Setup
 
