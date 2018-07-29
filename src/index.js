@@ -1,5 +1,6 @@
-// @flow
+import app from './server';
 
-import half from './half';
-
-export default half;
+const port = 3000;
+app.listen(port, () => {
+  console.log(`Server was started on '${port}'`);
+});
