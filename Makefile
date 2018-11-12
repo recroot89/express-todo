@@ -4,7 +4,7 @@ run:
 	npm start
 
 install-deps:
-	npm install
+	yarn
 
 install-flow-typed:
 	npm run flow-typed install
