@@ -33,7 +33,7 @@
   "dependencies": {
     "express": "^4.16.3",
     "gulp": "^4.0.0",
-    "nodemon": "^1.19.3"
+    "nodemon": "^2.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -44,11 +44,11 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "debug": "^4.1.1",
-    "eslint": "^6.5.1",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-babel": "^5.0.0",
-    "eslint-plugin-import": "^2.10.0",
-    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.3.0",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
     "jest-supertest-matchers": "0.0.2",
